@@ -1,0 +1,117 @@
+    body {
+    margin: 0;
+    background-color: #001f3f;
+    color: white;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    min-height: 100vh;
+    justify-content: center;
+}
+
+h1 {
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 2em;
+}
+
+h2 {
+    margin-top: 5px;
+    font-weight: normal;
+    font-size: 1.2em;
+    color: #cccccc;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+form {
+    width: 100%;
+    max-width: 350px;
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+}
+
+input[type="number"] {
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: none;
+    font-size: 1em;
+}
+
+button {
+    margin-top: 25px;
+    padding: 12px;
+    background-color: #004080;
+    border: none;
+    color: white;
+    font-size: 1em;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+button:hover {
+    background-color: #0059b3;
+}
+
+a {
+    margin-top: 20px;
+    color: #a0cfff;
+    text-decoration: none;
+    font-size: 0.9em;
+    text-align: center;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+.container {
+    display: flex;
+    gap: 20px;
+}
+
+.card {
+    background: #003366;
+    padding: 20px 30px;
+    border-radius: 8px;
+    width: 200px;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    user-select: none;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(255, 255, 255, 0.3);
+}
+
+.card h2 {
+    margin: 0 0 10px 0;
+    font-size: 20px;
+    color: white;
+}
+
+.card p {
+    color: #cccccc;
+    margin: 0;
+}
+
+
+body.index {
+    justify-content: center;
+}
+
+body.form {
+    justify-content: flex-start;
+    padding-top: 30px;
+}
